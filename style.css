@@ -1,0 +1,82 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #E5E5E5;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.player{
+  display: flex;
+  align-items: center;
+}
+.player img{
+    height: 56px;
+    width: 56px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 29px;
+    
+}
+.top-player{
+    margin-bottom: 30px;
+}
+.tittle-name{
+    margin-top: 3px;
+    font-size: 24px;
+    color: #562EFF;
+}
+.player-name{
+    margin-left: 16px;
+    font-size: 18px;
+}
+.container{
+    width: 870px;
+    background-color: white;
+    padding: 33px;
+    border-radius: 5px;
+    margin-bottom: 21px;
+}
+hr{
+    border:1px solid #D1D1D1;
+    margin-bottom: 27px;
+   
+}
+.image{
+      width: 177px;
+      height: 117px;
+}
+.image img{
+    width: 100%;
+}
+.blog{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 26px;
+}
+.article{
+    display: flex;
+}
+.descip{
+    margin-left: 16px;
+}
+.article-title{
+    margin: 0px;
+    font-size: 20px;
+}
+.article-span{
+    color: #9F9F9F;
+}
+.aticle-pera{
+    margin-top: 6px;
+    color: #562EFF;
+    font-size: 16px;
+}
+.course-image img{
+    width: 224px;
+    height: 104px;
+}
