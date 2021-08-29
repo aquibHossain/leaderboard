@@ -111,10 +111,21 @@ hr{
     .container{
         width: 100%;
     }
-    .players{
+    .players, .blog,.courses{
         grid-template-columns: repeat(1,1fr);
     }
-    .player{
+    .player, .article{
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .container{
+        width: 100%;
+    }
+    .players, .blog,.courses{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .player, .article{
         flex-direction: column;
     }
 }
