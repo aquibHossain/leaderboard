@@ -18,10 +18,13 @@
         </nav>
     </header>
     <main>
-        <section class="container" >
-            <div class="top-player">
-                <h2 class="tittle-name">Top Player</h2>
-            <div class="players">
+        <section  class="container" >
+            <div  class="top-player">
+               <div class="top-player-header">
+                   <h2 class="tittle-name">Top Player</h2>
+                <button id="add-player" class="button">Add</button>
+            </div> 
+            <div id="topPlayer" class="players">
                 <div class="player">
                     <img src="images/players/player-1.png" alt="">
                     <h3 class="player-name">Player 1</h3>
@@ -92,8 +95,8 @@
         </div>
         </div>
         </section>
-        <section class="container">
-             <h2 class="tittle-name">Latest Course</h2>
+        <section id="mainFile" class="container">
+             <h2 id="titleName" class="tittle-name">Latest Course</h2>
              <div class="courses">
                  <div class="course">
                      <div class="course-image">
@@ -173,5 +176,6 @@
              </div>
         </section>
     </main>
+    <script src="leader.js"></script>
 </body>
 </html>

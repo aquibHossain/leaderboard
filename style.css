@@ -16,6 +16,26 @@ main{
     height: 56px;
     width: 56px;
 }
+.top-player-header{
+    display: flex;
+    
+}
+
+.button{
+    height: 2em;
+    padding: 3px 25px;
+    background-color: #061a7c;
+    border: 0px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-left: auto;
+}
+.button:hover{
+   box-shadow: 3px 7px 10px gray;
+   transform: scale(1.2);
+
+}
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
